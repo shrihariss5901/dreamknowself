@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "minima", "~> 2.5"
+gem "jekyll", "~> 3.10"  # or the latest version compatible with minimal-mistakes
+gem "minimal-mistakes-jekyll"

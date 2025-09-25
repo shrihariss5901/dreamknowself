@@ -1,4 +1,6 @@
 source "https://rubygems.org"
+
+gem "bigdecimal"
 gem "base64"
 
 gem "jekyll", "~> 3.10"  # or the latest version compatible with minimal-mistakes

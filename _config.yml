@@ -1,9 +1,27 @@
 title: DreamKnowSelf
-description: A blog exploring philosophy, mysticism, astrology, and more.
+description: A blog exploring philosophy, mysticism, astrology, psychology, meditation, and spirituality
 url: "https://dreamknowself.com"
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+baseurl: ""
+remote_theme: mmistakes/minimal-mistakes
 
-markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+
+author:
+  name: "Your Name"
+  bio: "Exploring self-knowledge and awareness of dreams and reality"
+  
+minimal_mistakes_skin: "default"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true

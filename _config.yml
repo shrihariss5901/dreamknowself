@@ -13,7 +13,7 @@ author:
   name: "Your Name"
   bio: "Exploring self-knowledge and awareness of dreams and reality"
   
-minimal_mistakes_skin: "aqua"
+minimal_mistakes_skin: "dark"
 
 defaults:
   - scope:
